@@ -20,6 +20,7 @@
 
 html, body{
     width: 100%;
+    font-size: 62.5%
 
 }
 
@@ -140,5 +141,83 @@ html, body{
 
 .content-corp h1 span{
     font-weight: bold;
+
+}
+
+.content-arrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: var(--cinzaclaro);
+
+}
+
+.content-arrow i{
+    padding: 20px 0 0 0;
+    color: var(--amarelo);
+
+}
+
+.content-destaques{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinzaclaro);
+
+}
+
+.content-destaques h1{
+    color: var(--amarelo);
+    padding: 50px 0 0 0;
+
+}
+
+.content-destaque-conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinzaclaro);
+
+}
+
+.div-destaque{
+    width: 70%;
+    margin: 30px 0 0 0;
+    background-color: #fe9900;
+
+}
+
+.destaque-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.destaque-title h1{
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.destaque-subtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.destaque-subtitle h2{
+    color: var(--cinzaclaro);
+    max-width: 60%;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: normal;
 
 }
